@@ -11,6 +11,6 @@ public class CollectionUtilsCollectionFilter {
         Predicate<Integer> apacheEventNumberPredicate = item -> item % 2 == 0;
 
         CollectionUtils.filter(baseCollection, apacheEventNumberPredicate);
-        return baseCollection;
+        return baseCollection; 
     }
 }
